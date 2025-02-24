@@ -7,5 +7,6 @@
       { "source": "/api/hello", "destination": "/api/hello.js" }
     , { "source": "/api", "destination": "/api/hello.js" }
     , { "source": "/", "destination": "/api/hello.js" }
+    , { "source": "/tvhook", "destination": "/api/webhook.js" }
   ]
 }
