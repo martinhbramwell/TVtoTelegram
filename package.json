@@ -1,0 +1,12 @@
+{
+  "name": "TVtoTelegram",
+  "version": "1.0.0",
+  "description": "A Vercel serverless function for aggregating TradingView alerts and sending Telegram notifications.",
+  "main": "api/hello.js",
+  "scripts": {
+    "dev": "vercel dev"
+  },
+  "author": "Martin Bramwell",
+  "license": "MIT",
+  "dependencies": {}
+}
