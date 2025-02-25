@@ -14,6 +14,7 @@ export default async function handler(req, res) {
   try {
     console.log("TradingView webhook invoked at:", new Date().toISOString());
     console.log("DATABASE_URL:", process.env.DATABASE_URL);
+    console.log("TELEGRAM_CHAT_ID:", process.env.TELEGRAM_CHAT_ID);
     console.log("Raw payload:", req.body);
 
     // Determine if the incoming body is a string (plain text) or already an object.
